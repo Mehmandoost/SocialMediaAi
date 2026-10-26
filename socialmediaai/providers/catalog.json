@@ -1,0 +1,750 @@
+[
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "actual",
+    "display_name": "Actual Computer",
+    "signup_url": "https://actual.inc",
+    "env_vars": [
+      "ACTUAL_API_KEY"
+    ],
+    "aliases": [
+      "actual-computer",
+      "actualcomputer",
+      "aci"
+    ],
+    "base_url": "https://api.actual.inc/v1",
+    "plugin_dir": "actual"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "ai-gateway",
+    "base_url": "https://ai-gateway.vercel.sh/v1",
+    "env_vars": [
+      "AI_GATEWAY_API_KEY"
+    ],
+    "aliases": [
+      "vercel",
+      "vercel-ai-gateway",
+      "ai_gateway",
+      "aigateway"
+    ],
+    "plugin_dir": "ai-gateway"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "alibaba",
+    "base_url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+    "display_name": "Alibaba Cloud DashScope (China)",
+    "signup_url": "https://help.aliyun.com/zh/model-studio/",
+    "env_vars": [
+      "DASHSCOPE_API_KEY"
+    ],
+    "aliases": [
+      "dashscope",
+      "alibaba-cloud",
+      "qwen-dashscope",
+      "aliyun"
+    ],
+    "plugin_dir": "alibaba"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "alibaba-coding-plan",
+    "base_url": "https://coding-intl.dashscope.aliyuncs.com/v1",
+    "display_name": "Alibaba Cloud (Coding Plan)",
+    "signup_url": "https://help.aliyun.com/zh/model-studio/",
+    "env_vars": [
+      "ALIBABA_CODING_PLAN_API_KEY",
+      "DASHSCOPE_API_KEY",
+      "ALIBABA_CODING_PLAN_BASE_URL"
+    ],
+    "aliases": [
+      "alibaba_coding",
+      "alibaba-coding",
+      "dashscope-coding"
+    ],
+    "plugin_dir": "alibaba-coding-plan"
+  },
+  {
+    "api_mode": "anthropic_messages",
+    "auth_type": "api_key",
+    "name": "anthropic",
+    "base_url": "https://api.anthropic.com",
+    "env_vars": [
+      "ANTHROPIC_API_KEY",
+      "ANTHROPIC_TOKEN",
+      "CLAUDE_CODE_OAUTH_TOKEN"
+    ],
+    "aliases": [
+      "claude",
+      "claude-oauth",
+      "claude-code"
+    ],
+    "plugin_dir": "anthropic"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "arcee",
+    "base_url": "https://api.arcee.ai/api/v1",
+    "env_vars": [
+      "ARCEEAI_API_KEY"
+    ],
+    "aliases": [
+      "arcee-ai",
+      "arceeai"
+    ],
+    "plugin_dir": "arcee"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "azure-foundry",
+    "base_url": "",
+    "display_name": "Azure Foundry",
+    "signup_url": "https://ai.azure.com/",
+    "env_vars": [
+      "AZURE_FOUNDRY_API_KEY",
+      "AZURE_FOUNDRY_BASE_URL"
+    ],
+    "aliases": [
+      "azure",
+      "azure-ai-foundry",
+      "azure-ai"
+    ],
+    "plugin_dir": "azure-foundry"
+  },
+  {
+    "api_mode": "bedrock_converse",
+    "auth_type": "aws_sdk",
+    "name": "bedrock",
+    "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+    "env_vars": [],
+    "aliases": [
+      "aws",
+      "aws-bedrock",
+      "amazon-bedrock",
+      "amazon"
+    ],
+    "plugin_dir": "bedrock"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "commandcode",
+    "display_name": "CommandCode",
+    "signup_url": "https://commandcode.ai/",
+    "env_vars": [
+      "COMMANDCODE_API_KEY",
+      "COMMANDCODE_BASE_URL"
+    ],
+    "aliases": [
+      "commandcode-chat"
+    ],
+    "plugin_dir": "commandcode"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "copilot",
+    "name": "copilot",
+    "base_url": "https://api.githubcopilot.com",
+    "env_vars": [
+      "COPILOT_GITHUB_TOKEN",
+      "GH_TOKEN",
+      "GITHUB_TOKEN"
+    ],
+    "aliases": [
+      "github-copilot",
+      "github-models",
+      "github-model",
+      "github"
+    ],
+    "plugin_dir": "copilot"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "external_process",
+    "name": "copilot-acp",
+    "base_url": "acp://copilot",
+    "env_vars": [],
+    "aliases": [
+      "github-copilot-acp",
+      "copilot-acp-agent"
+    ],
+    "plugin_dir": "copilot-acp"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "custom",
+    "base_url": "",
+    "env_vars": [],
+    "aliases": [
+      "ollama",
+      "local",
+      "vllm",
+      "llamacpp",
+      "llama.cpp",
+      "llama-cpp"
+    ],
+    "plugin_dir": "custom"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "deepinfra",
+    "base_url": "https://api.deepinfra.com/v1/openai",
+    "display_name": "DeepInfra",
+    "signup_url": "https://deepinfra.com/dash/api_keys",
+    "env_vars": [
+      "DEEPINFRA_API_KEY",
+      "DEEPINFRA_BASE_URL"
+    ],
+    "aliases": [
+      "deep-infra",
+      "deepinfra-ai"
+    ],
+    "plugin_dir": "deepinfra"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "deepseek",
+    "base_url": "https://api.deepseek.com/v1",
+    "display_name": "DeepSeek",
+    "signup_url": "https://platform.deepseek.com/",
+    "env_vars": [
+      "DEEPSEEK_API_KEY"
+    ],
+    "aliases": [
+      "deepseek-chat",
+      "deep-seek"
+    ],
+    "plugin_dir": "deepseek"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "fireworks",
+    "base_url": "https://api.fireworks.ai/inference/v1",
+    "display_name": "Fireworks AI",
+    "signup_url": "https://app.fireworks.ai/settings/users/api-keys",
+    "env_vars": [
+      "FIREWORKS_API_KEY"
+    ],
+    "aliases": [
+      "fireworks-ai",
+      "fw"
+    ],
+    "plugin_dir": "fireworks"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "gemini",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta",
+    "env_vars": [
+      "GOOGLE_API_KEY",
+      "GEMINI_API_KEY"
+    ],
+    "aliases": [
+      "google",
+      "google-gemini",
+      "google-ai-studio"
+    ],
+    "plugin_dir": "gemini"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "gmi",
+    "base_url": "https://api.gmi-serving.com/v1",
+    "display_name": "GMI Cloud",
+    "signup_url": "https://www.gmicloud.ai/",
+    "env_vars": [
+      "GMI_API_KEY",
+      "GMI_BASE_URL"
+    ],
+    "aliases": [
+      "gmi-cloud",
+      "gmicloud"
+    ],
+    "plugin_dir": "gmi"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "huggingface",
+    "base_url": "https://router.huggingface.co/v1",
+    "display_name": "HuggingFace",
+    "signup_url": "https://huggingface.co/settings/tokens",
+    "env_vars": [
+      "HF_TOKEN"
+    ],
+    "aliases": [
+      "hf",
+      "hugging-face",
+      "huggingface-hub"
+    ],
+    "plugin_dir": "huggingface"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "kilocode",
+    "base_url": "https://api.kilo.ai/api/gateway",
+    "env_vars": [
+      "KILOCODE_API_KEY"
+    ],
+    "aliases": [
+      "kilo-code",
+      "kilo",
+      "kilo-gateway"
+    ],
+    "plugin_dir": "kilocode"
+  },
+  {
+    "name": "kimi-coding",
+    "aliases": [
+      "kimi",
+      "moonshot"
+    ],
+    "env_vars": [
+      "KIMI_API_KEY",
+      "KIMI_CODING_API_KEY"
+    ],
+    "base_url": "https://api.moonshot.ai/v1",
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "plugin_dir": "kimi-coding"
+  },
+  {
+    "name": "kimi-coding-cn",
+    "aliases": [
+      "kimi-cn",
+      "moonshot-cn"
+    ],
+    "env_vars": [
+      "KIMI_CN_API_KEY"
+    ],
+    "base_url": "https://api.moonshot.cn/v1",
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "plugin_dir": "kimi-coding"
+  },
+  {
+    "name": "llama-cpp",
+    "aliases": [
+      "llama.cpp",
+      "llamacpp"
+    ],
+    "env_vars": [],
+    "base_url": "http://localhost:8080/v1",
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "plugin_dir": "local"
+  },
+  {
+    "name": "lmstudio",
+    "aliases": [],
+    "env_vars": [
+      "LM_API_KEY",
+      "LM_BASE_URL"
+    ],
+    "base_url": "http://localhost:1234/v1",
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "plugin_dir": "lmstudio"
+  },
+  {
+    "api_mode": "codex_responses",
+    "auth_type": "api_key",
+    "name": "meta-ai",
+    "display_name": "Meta Model API",
+    "signup_url": "https://developer.meta.com/ai/",
+    "env_vars": [
+      "MODEL_API_KEY",
+      "META_API_KEY",
+      "META_MODEL_API_KEY",
+      "META_BASE_URL"
+    ],
+    "aliases": [
+      "meta",
+      "muse",
+      "muse-spark",
+      "model-api",
+      "msl"
+    ],
+    "plugin_dir": "meta-ai"
+  },
+  {
+    "api_mode": "anthropic_messages",
+    "auth_type": "api_key",
+    "name": "minimax",
+    "base_url": "https://api.minimax.io/anthropic",
+    "display_name": "MiniMax (OAuth)",
+    "signup_url": "https://api.minimax.io/",
+    "env_vars": [
+      "MINIMAX_API_KEY"
+    ],
+    "aliases": [
+      "mini-max"
+    ],
+    "plugin_dir": "minimax"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "nebius-token-factory",
+    "base_url": "https://api.tokenfactory.nebius.com/v1",
+    "models_url": "https://api.tokenfactory.nebius.com/v1/models?verbose=true",
+    "display_name": "Nebius Token Factory",
+    "signup_url": "https://tokenfactory.nebius.com/",
+    "env_vars": [
+      "NEBIUS_API_KEY",
+      "NEBIUS_TOKEN_FACTORY_API_KEY",
+      "NEBIUS_BASE_URL"
+    ],
+    "aliases": [
+      "nebius",
+      "nebius-tokenfactory",
+      "nebius-tf",
+      "token-factory",
+      "tokenfactory"
+    ],
+    "plugin_dir": "nebius-token-factory"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "oauth_device_code",
+    "name": "nous",
+    "base_url": "https://inference-api.nousresearch.com/v1",
+    "display_name": "Nous Research",
+    "signup_url": "https://nousresearch.com/",
+    "env_vars": [
+      "NOUS_API_KEY"
+    ],
+    "aliases": [
+      "nous-portal",
+      "nousresearch"
+    ],
+    "plugin_dir": "nous"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "novita",
+    "base_url": "https://api.novita.ai/openai/v1",
+    "display_name": "NovitaAI",
+    "signup_url": "https://novita.ai/settings/key-management",
+    "env_vars": [
+      "NOVITA_API_KEY",
+      "NOVITA_BASE_URL"
+    ],
+    "aliases": [
+      "novita-ai",
+      "novitaai"
+    ],
+    "plugin_dir": "novita"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "nvidia",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "display_name": "NVIDIA NIM",
+    "signup_url": "https://build.nvidia.com/",
+    "env_vars": [
+      "NVIDIA_API_KEY"
+    ],
+    "aliases": [
+      "nvidia-nim",
+      "nim",
+      "build-nvidia",
+      "nemotron"
+    ],
+    "plugin_dir": "nvidia"
+  },
+  {
+    "name": "ollama",
+    "aliases": [],
+    "env_vars": [],
+    "base_url": "http://localhost:11434/v1",
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "plugin_dir": "local"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "ollama-cloud",
+    "base_url": "https://ollama.com/v1",
+    "env_vars": [
+      "OLLAMA_API_KEY"
+    ],
+    "aliases": [
+      "ollama_cloud"
+    ],
+    "plugin_dir": "ollama-cloud"
+  },
+  {
+    "name": "openai-api",
+    "aliases": [
+      "openai"
+    ],
+    "env_vars": [
+      "OPENAI_API_KEY",
+      "OPENAI_BASE_URL"
+    ],
+    "base_url": "https://api.openai.com/v1",
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "plugin_dir": "openai-codex"
+  },
+  {
+    "api_mode": "codex_responses",
+    "auth_type": "oauth_external",
+    "name": "openai-codex",
+    "base_url": "https://chatgpt.com/backend-api/codex",
+    "env_vars": [],
+    "aliases": [
+      "codex",
+      "openai_codex"
+    ],
+    "plugin_dir": "openai-codex"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "opencode-zen",
+    "base_url": "https://opencode.ai/zen/v1",
+    "env_vars": [
+      "OPENCODE_ZEN_API_KEY"
+    ],
+    "aliases": [
+      "opencode",
+      "opencode_zen",
+      "zen"
+    ],
+    "plugin_dir": "opencode-zen"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "openrouter",
+    "base_url": "https://openrouter.ai/api/v1",
+    "models_url": "https://openrouter.ai/api/v1/models",
+    "display_name": "OpenRouter",
+    "signup_url": "https://openrouter.ai/keys",
+    "env_vars": [
+      "OPENROUTER_API_KEY"
+    ],
+    "aliases": [
+      "or"
+    ],
+    "plugin_dir": "openrouter"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "oauth_external",
+    "name": "qwen-oauth",
+    "base_url": "https://portal.qwen.ai/v1",
+    "env_vars": [
+      "QWEN_API_KEY"
+    ],
+    "aliases": [
+      "qwen",
+      "qwen-portal",
+      "qwen-cli"
+    ],
+    "plugin_dir": "qwen-oauth"
+  },
+  {
+    "api_mode": "codex_responses",
+    "auth_type": "api_key",
+    "name": "router",
+    "display_name": "Ramp Router",
+    "signup_url": "https://app.router.com/keys",
+    "env_vars": [
+      "RAMP_ROUTER_API_KEY",
+      "ROUTER_API_KEY",
+      "RAMP_ROUTER_BASE_URL"
+    ],
+    "aliases": [
+      "ramp-router",
+      "ramp",
+      "router.com"
+    ],
+    "plugin_dir": "router"
+  },
+  {
+    "name": "sglang",
+    "aliases": [],
+    "env_vars": [
+      "OPENAI_API_KEY"
+    ],
+    "base_url": "http://localhost:30000/v1",
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "plugin_dir": "local"
+  },
+  {
+    "name": "solstice",
+    "aliases": [
+      "solstice-oauth"
+    ],
+    "env_vars": [],
+    "base_url": "",
+    "api_mode": "chat_completions",
+    "auth_type": "oauth_external",
+    "plugin_dir": "solstice"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "stepfun",
+    "base_url": "https://api.stepfun.ai/step_plan/v1",
+    "env_vars": [
+      "STEPFUN_API_KEY"
+    ],
+    "aliases": [
+      "step",
+      "stepfun-coding-plan"
+    ],
+    "plugin_dir": "stepfun"
+  },
+  {
+    "name": "tencent-tokenhub",
+    "aliases": [
+      "tencent",
+      "tokenhub",
+      "tencentmaas"
+    ],
+    "env_vars": [
+      "TOKENHUB_API_KEY",
+      "TOKENHUB_BASE_URL"
+    ],
+    "base_url": "https://tokenhub.tencentmaas.com/v1",
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "plugin_dir": "tencent-tokenhub"
+  },
+  {
+    "name": "tencent-tokenplan",
+    "aliases": [
+      "tokenplan",
+      "tencent-lkeap"
+    ],
+    "env_vars": [
+      "TOKENPLAN_API_KEY",
+      "TOKENPLAN_BASE_URL"
+    ],
+    "base_url": "https://api.lkeap.cloud.tencent.com/plan/anthropic",
+    "api_mode": "anthropic_messages",
+    "auth_type": "api_key",
+    "plugin_dir": "tencent-tokenhub"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "upstage",
+    "base_url": "https://api.upstage.ai/v1",
+    "display_name": "Upstage Solar",
+    "signup_url": "https://console.upstage.ai/api-keys",
+    "env_vars": [
+      "UPSTAGE_API_KEY",
+      "UPSTAGE_BASE_URL"
+    ],
+    "aliases": [
+      "solar"
+    ],
+    "plugin_dir": "upstage"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "vertex",
+    "name": "vertex",
+    "base_url": "https://aiplatform.googleapis.com",
+    "env_vars": [],
+    "aliases": [
+      "google-vertex",
+      "vertex-ai",
+      "gcp-vertex",
+      "vertexai"
+    ],
+    "plugin_dir": "vertex"
+  },
+  {
+    "name": "vllm",
+    "aliases": [],
+    "env_vars": [
+      "OPENAI_API_KEY"
+    ],
+    "base_url": "http://localhost:8000/v1",
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "plugin_dir": "local"
+  },
+  {
+    "api_mode": "codex_responses",
+    "auth_type": "api_key",
+    "name": "xai",
+    "base_url": "https://api.x.ai/v1",
+    "env_vars": [
+      "XAI_API_KEY"
+    ],
+    "aliases": [
+      "grok",
+      "x-ai",
+      "x.ai"
+    ],
+    "plugin_dir": "xai"
+  },
+  {
+    "name": "xai-oauth",
+    "aliases": [],
+    "env_vars": [],
+    "base_url": "https://api.x.ai/v1",
+    "api_mode": "codex_responses",
+    "auth_type": "oauth_external",
+    "plugin_dir": "xai"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "xiaomi",
+    "base_url": "https://api.xiaomimimo.com/v1",
+    "env_vars": [
+      "XIAOMI_API_KEY"
+    ],
+    "aliases": [
+      "mimo",
+      "xiaomi-mimo"
+    ],
+    "plugin_dir": "xiaomi"
+  },
+  {
+    "api_mode": "chat_completions",
+    "auth_type": "api_key",
+    "name": "zai",
+    "base_url": "https://api.z.ai/api/paas/v4",
+    "display_name": "Z.AI (GLM)",
+    "signup_url": "https://z.ai/",
+    "env_vars": [
+      "GLM_API_KEY",
+      "ZAI_API_KEY",
+      "Z_AI_API_KEY"
+    ],
+    "aliases": [
+      "glm",
+      "z-ai",
+      "z.ai",
+      "zhipu"
+    ],
+    "plugin_dir": "zai"
+  }
+]
